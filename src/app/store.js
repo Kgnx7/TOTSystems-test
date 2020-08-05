@@ -1,8 +1,21 @@
 import { configureStore } from '@reduxjs/toolkit'
-import counterReducer from '../features/counter/counterSlice'
+import authReducer from '../features/login/loginSlice'
+import throttle from 'lodash/throttle'
+import { loadState, saveState } from '../utils/localStorage'
 
-export default configureStore({
+const persistedState = loadState()
+const store = configureStore({
     reducer: {
-        counter: counterReducer,
+        auth: authReducer,
     },
+
+    preloadedState: persistedState,
 })
+
+store.subscribe(
+    throttle(() => {
+        saveState(store.getState())
+    }, 1000)
+)
+
+export default store
