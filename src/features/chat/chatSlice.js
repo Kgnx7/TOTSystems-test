@@ -12,8 +12,8 @@ export const chatSlice = createSlice({
     reducers: {
         send: (state, { payload }) => {
             state.chats[payload.chat] = [
-                ...state[payload.title],
-                payload.messages,
+                ...state.chats[payload.chat],
+                payload.message,
             ]
         },
         remove: (state, { payload }) => {
