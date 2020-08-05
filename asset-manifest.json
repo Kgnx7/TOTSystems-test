@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/TOTSystems-test/static/css/main.79dd0793.chunk.css",
-    "main.js": "/TOTSystems-test/static/js/main.c5e14620.chunk.js",
-    "main.js.map": "/TOTSystems-test/static/js/main.c5e14620.chunk.js.map",
-    "runtime-main.js": "/TOTSystems-test/static/js/runtime-main.6c4cf1b0.js",
-    "runtime-main.js.map": "/TOTSystems-test/static/js/runtime-main.6c4cf1b0.js.map",
-    "static/js/2.cb9fdee4.chunk.js": "/TOTSystems-test/static/js/2.cb9fdee4.chunk.js",
-    "static/js/2.cb9fdee4.chunk.js.map": "/TOTSystems-test/static/js/2.cb9fdee4.chunk.js.map",
-    "index.html": "/TOTSystems-test/index.html",
-    "precache-manifest.9b4729963a8d9b626b6793b54c84a8a6.js": "/TOTSystems-test/precache-manifest.9b4729963a8d9b626b6793b54c84a8a6.js",
-    "service-worker.js": "/TOTSystems-test/service-worker.js",
-    "static/css/main.79dd0793.chunk.css.map": "/TOTSystems-test/static/css/main.79dd0793.chunk.css.map",
-    "static/js/2.cb9fdee4.chunk.js.LICENSE.txt": "/TOTSystems-test/static/js/2.cb9fdee4.chunk.js.LICENSE.txt"
+    "main.css": "/totsystems-test/static/css/main.79dd0793.chunk.css",
+    "main.js": "/totsystems-test/static/js/main.51f01141.chunk.js",
+    "main.js.map": "/totsystems-test/static/js/main.51f01141.chunk.js.map",
+    "runtime-main.js": "/totsystems-test/static/js/runtime-main.863da2f7.js",
+    "runtime-main.js.map": "/totsystems-test/static/js/runtime-main.863da2f7.js.map",
+    "static/js/2.cb9fdee4.chunk.js": "/totsystems-test/static/js/2.cb9fdee4.chunk.js",
+    "static/js/2.cb9fdee4.chunk.js.map": "/totsystems-test/static/js/2.cb9fdee4.chunk.js.map",
+    "index.html": "/totsystems-test/index.html",
+    "precache-manifest.c7be5a4037b36f1555ee27ea22ffe6ea.js": "/totsystems-test/precache-manifest.c7be5a4037b36f1555ee27ea22ffe6ea.js",
+    "service-worker.js": "/totsystems-test/service-worker.js",
+    "static/css/main.79dd0793.chunk.css.map": "/totsystems-test/static/css/main.79dd0793.chunk.css.map",
+    "static/js/2.cb9fdee4.chunk.js.LICENSE.txt": "/totsystems-test/static/js/2.cb9fdee4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6c4cf1b0.js",
+    "static/js/runtime-main.863da2f7.js",
     "static/js/2.cb9fdee4.chunk.js",
     "static/css/main.79dd0793.chunk.css",
-    "static/js/main.c5e14620.chunk.js"
+    "static/js/main.51f01141.chunk.js"
   ]
 }
